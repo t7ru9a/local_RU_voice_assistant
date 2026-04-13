@@ -21,6 +21,7 @@ pip install -r requirements.txt
 2. Настройка голосов
 
 Голоса брать тут: https://huggingface.co/rhasspy/piper-voices/tree/main
+
 Поместите файлы моделей Piper (.onnx и .json) в папку:
 resources/piper-voices/
 Пример структуры:

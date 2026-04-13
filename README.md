@@ -12,23 +12,28 @@ Piper: Утилита piper.exe должна быть установлена и 
 CUDA (Опционально): Для ускорения Whisper на видеокартах NVIDIA.
 ## 🚀 Быстрый старт
 1. Клонирование и установка
-bash
+```
 git clone https://github.com
 cd voice-assistant-py
 pip install -r requirements.txt
-Используйте код с осторожностью.
+```
+
 2. Настройка голосов
+   
 Поместите файлы моделей Piper (.onnx и .json) в папку:
 resources/piper-voices/
 Пример структуры:
 resources/piper-voices/ruslan.onnx
 resources/piper-voices/ruslan.onnx.json
+
 3. Настройка путей (config.py)
+   
 Откройте config.py и проверьте пути к библиотекам CUDA (если используете GPU) и названия файлов голосов.
+
 4. Запуск
-bash
+```   
 python main.py
-Используйте код с осторожностью.
+```
 ## 🎮 Как пользоваться
 Запустите LM Studio, выберите модель.
 Запустите скрипт main.py.

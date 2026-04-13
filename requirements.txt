@@ -1,0 +1,5 @@
+keyboard
+pyaudio
+numpy
+faster-whisper
+lmstudio
